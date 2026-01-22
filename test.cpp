@@ -3,27 +3,27 @@
 using namespace std;
 int main()
 {
-    int n = 10;
-    int count = 0;
-    int sum = 0;
+    // int n = 10;
+    // int count = 0;
+    // int sum = 0;
 
-    int a;
-    long l;
-    char ch;
-    float f;
-    double d;
+    // int a;
+    // long l;
+    // char ch;
+    // float f;
+    // double d;
 
-    cin >> a;
-    cin >> l;
-    cin >> ch;
-    cin >> f;
-    cin >> d;
+    // cin >> a;
+    // cin >> l;
+    // cin >> ch;
+    // cin >> f;
+    // cin >> d;
 
-    cout << a << endl;
-    cout << l << endl;
-    cout << ch << endl;
-    cout << fixed << setprecision(3) << f << endl;
-    cout << fixed << setprecision(9) << d << endl;
+    // cout << a << endl;
+    // cout << l << endl;
+    // cout << ch << endl;
+    // cout << fixed << setprecision(3) << f << endl;
+    // cout << fixed << setprecision(9) << d << endl;
 
     // for (int i = 0; i <= n; i++)
     // {
@@ -33,17 +33,18 @@ int main()
     //     }
     // };
 
-    while (count <= n) // condition
-    {
-        if (count % 2 != 0) // kaj kore
-        {
-            sum = sum + count;
-        }
+    // while (count <= n) // condition
+    // {
+    //     if (count % 2 != 0) // kaj kore
+    //     {
+    //         sum = sum + count;
+    //     }
 
-        count++; // update kore
-    };
+    //     count++; // update kore
+    // };
 
     // cout << "Sum:" << sum << endl;
+    cout<<"hello"<<endl;
     return 0;
 }
 
